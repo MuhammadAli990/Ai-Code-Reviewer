@@ -2,6 +2,8 @@
 
 Welcome to **AI Code Reviewer** 🚀! This is a React-based web app that acts as a code reviewer using the **Gemini Flash 2.0 model** 🧠! You can paste or write your code, and it will be thoroughly reviewed for errors ❌, improvements 🔧, and development best practices 🌟.
 
+![](public/image.png)
+
 ## 🚀 Features
 
 - **AI-powered code review**: Powered by **Gemini Flash 2.0** 💡, this app reviews your code like a professional developer. It catches errors 🛠️ and suggests improvements to make your code better. 🤖
