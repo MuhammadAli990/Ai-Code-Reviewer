@@ -1,0 +1,27 @@
+@import "tailwindcss";
+@plugin "daisyui";
+@plugin "daisyui" {
+  themes: all
+}
+
+.scrollbar-thin {
+  ::-webkit-scrollbar {
+    width: 2px;  /* Very thin vertical scrollbar */
+    height: 2px; /* Very thin horizontal scrollbar */
+  }
+
+  /* Hide scrollbar arrows */
+  ::-webkit-scrollbar-button {
+    display: none;
+  }
+
+  /* For Firefox */
+  scrollbar-width: thin;
+  scrollbar-color: transparent transparent; /* Hide scrollbar thumb and track */
+
+}
+
+.editor textarea {
+  outline: 0;
+}
+
